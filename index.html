@@ -7,9 +7,12 @@
     <title>Toegankelijkheidsverklaring</title>
 </head>
 <body>
-    <button class="feedbackbutton">Feedback</button>
+    <button popovertarget="feedbackpopup" class="feedbackbutton">Feedback</button> <!--Toont de feedback pop up-->
+    <div popover id="feedbackpopup">
+        <p>test</p>
+    </div>
     <header>
-        <section class="top-deel">
+        <section class="top-deel"> <!--styling bovenste gedeelte-->
             <ul class="taal-switch">
                 <li>Nl</li>
                 <li>|</li>
@@ -17,13 +20,76 @@
             </ul>
             <a href="https://www.abnamro.nl/nl/prive/index.html">Privé</a>
         </section>
-        <section class="bottom-deel">
+        <section class="bottom-deel"> <!--styling onderste gedeelte-->
             <a href="https://www.abnamro.nl/nl/prive/index.html" class="AbnAmroLogo"><img src="images/AbnAmroLogo.png" alt="Abnamro-logo"></a>
             <a href="https://www.abnamro.nl/mijn-abnamro/authenticatie/inloggen/" class="Inloggen"><img src="sleutel.png" alt="">Inloggen</a>
         </section>
-        <nav class="navbar">
-            <ul>
-                <li><a>Producten</a></li>
+        <nav class="navbar"> <!--de hele navbar (gebruik deze puur voor styling)-->
+            <ul class="navbarlinks"> 
+                <li><a href="#">Producten</a> <!--1e main dropdown na het klikken toont hij alles hieronder-->
+                    <ul class="productendropdown">
+                        <li id="dropdown1"><a href="#">Betalen & Creditcards</a>
+                            <ul class="betalen&creditcardsdropdownparent"> <!--1e dropdown dus deze word getoond na het klikken op betalen en credit cards-->
+                                <li><a href="https://www.abnamro.nl/nl/prive/betalen/bankrekening-openen/index.html">Bankrekening openen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/betalen/bankrekening-openen/gezamenlijke-rekening.html">Gezamenlijke rekening</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/betalen/bankrekening-openen/studenten-pakket/index.html">Studenten rekening</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/betalen/contant-geld/index.html">Contant geld</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/betalen/index.html">Bekijk ons aanbod</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/betalen/creditcards/index.html">Credit card aanvragen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/betalen/jongerengroeirekening/kinderrekening.html">Kinderrekening openen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/betalen/jongerengroeirekening/jongerenrekening.html">Jongerenrekening openen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/betalen/basispakket.html">Betaalpakket wijzigen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/betalen/dagelijkse-bankzaken.html">Mijn bankzaken regelen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/lenen/rood-staan/index.html">Rood staan</a></li>
+                            </ul>
+                        </li>
+                        <li id="dropdown2"><a href="#">Hypotheken</a>
+                            <ul class="hypothekendropdownparent"> <!--2e dropdown dus deze word getoond na het klikken op hypotheken-->
+                                <li><a href="https://www.abnamro.nl/nl/prive/hypotheken/index.html?pos=hoofdnav">Alles over hypotheken</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/hypotheken/maximale-hypotheek-berekenen.html?pos=hoofdnav">Hypotheek berekenen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/hypotheken/actuele-hypotheekrente/index.html?pos=hoofdnav">Hypotheekrente</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/hypotheken/huis-kopen/index.html?pos=hoofdnav">Huis kopen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/hypotheken/duurzaam-wonen/index.html?pos=hoofdnav">Huis verduurzamelen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/hypotheken/afspraak.html?pos=hoofdnav">Maak een afspraak</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/hypotheken/hypotheek-afsluiten/index.html?pos=hoofdnav">Hypotheek afsluiten</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/hypotheken/mijn-hypotheek/index.html?pos=hoofdnav">Hypotheek inzien of wijzigen</a></li>
+                            </ul>
+                        </li>
+                        <li id="dropdown3"><a href="#">Geld lenen</a>
+                            <ul class="geldlenendropdownparent"> <!--3e dropdown dus deze word getoond na het klikken op geld lenen-->
+                                <li><a href="https://www.abnamro.nl/nl/prive/lenen/leningen/persoonlijke-lening/index.html">Persoonlijke lening</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/lenen/autofinanciering/index.html">Lenen voor een auto</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/lenen/leningen/lenen-voor-een-verbouwing.html">Lenen voor een verbouwing</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/lenen/leningen/duurzaamheidslening/index.html">Lenen voor verduurzaming</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/lenen/investeren-in-vastgoed/maatwerkkrediet/index.html">Lenen voor vastgoed</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/lenen/lening-berekenen/index.html">Lening berekenen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/lenen/lening-aanvragen/index.html">Lening aanvragen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/lenen/rood-staan/index.html">Rood staan</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/betalen/basispakket.html">Mijn lening inzien</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/lenen/mijn-lening/aflossen.html">Mijn lening (extra) aflossen</a></li>
+                            </ul>
+                        </li>
+                        <li id="dropdown4"><a href="#">Beleggen</a>
+                            <ul class="beleggendropdownparent"> <!--4e dropdown dus deze word getoond na het klikken op geld lenen-->
+                                <li><a href="https://www.abnamro.nl/nl/prive/beleggen/index.html">Alles over beleggen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/beleggen/bux/index.html">BUX</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/beleggen/beleggingsvormen/zelf-beleggen-basis/index.html">Zelf Beleggen Basis</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/beleggen/beleggingsvormen/zelf-beleggen-plus/index.html">Zelf Beleggen Plus</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/beleggen/beleggingsvormen/begeleid-beleggen/index.html">Begeleid Beleggen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/beleggen/beleggingsvormen/vermogensbeheer/index.html">Vermogensbeheer</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/pensioen/pensioen-opbouwen/pensioenrekening/pensioenbeleggen/index.html">Pensioensbeleggen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/beleggen/beursnieuws/index.html">Beursnieuws & Opinie</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/beleggen/beleggingsvormen/zelf-beleggen/index.html">Zelf de beurs op</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/beleggen/beleggingsvormen/begeleid-de-beurs-op/index.html">Begeleid de beurs op</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/beleggen/koersinformatie/index.html">Beurskoersen bekijken</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/beleggen/koersinformatie/beleggingsfondsen.html">Fondsen vergelijken</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/beleggen/beleggen-voor-beginners/index.html">Beginnen met beleggen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/beleggen/artikelen/index.html">Meer lezen over beleggen</a></li>
+                                <li><a href="https://www.abnamro.nl/nl/prive/beleggen/service/index.html">Veelgestelde vragen lezen</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
                 <li><a>Je situatie</a></li>
                 <li><a>App en Internet Bankieren</a></li>
                 <li><a href="https://www.abnamro.nl/nl/prive/service-en-contact/index.html">Service en contact</a></li>
