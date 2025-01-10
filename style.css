@@ -1,0 +1,28 @@
+html{
+    margin: 0;
+    background-color: #ECEBEC;
+}
+
+.feedbackbutton{
+    position: fixed;
+    right: -2em;
+    top: 50%;
+    rotate: -90deg;
+    background-color: #004c4c;
+    width: 100px;
+    height: 35px;
+    color: #ffffff;
+}
+
+header{
+    ul{
+        list-style: none;
+    }
+    .top-deel{
+        display: flex;   
+    }
+    .navbar{
+        background-color: #006260;
+        display: inline-block;
+    }
+}
