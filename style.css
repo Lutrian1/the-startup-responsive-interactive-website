@@ -78,5 +78,58 @@ header{
     }
 }
 footer{
-        
+    background-color: #17928c;
+    color: #ffffff;
+    section.topdeelfooter{
+        margin-left: 20px;
+        h2.hulpnodigheading{
+            padding-top: 20px;
+            font-size: 14px;
+        }
+        p{
+            font-size: 14px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            .contactbutton{
+                background-color: #0b7774; 
+                align-content: center;
+                width: 90%;
+                height: 40px;
+                font-size: 14px;
+            }
+        }
+    }
+    section.bottomdeelfooter{
+        background-color: #ecebec;
+        ul.linklist{
+            padding-top: 20px;
+            text-align: center;
+            margin-left: -30px;
+            li{
+                display: inline-block;
+                color: #cfcfcf;
+                margin-left: 5px;
+                a{
+                    text-decoration: none;
+                    color: #00928e;
+                }
+            }
+        }
+        ul.sociallist{
+            align-content: center;
+            li{
+                display: inline-block;
+                list-style: none;
+            }
+        }
+        p{
+            color: black;
+            font-style: italic;
+            text-align: center;
+            font-size: 12.6px;
+            opacity: 70%;
+        }
+    }
 }
