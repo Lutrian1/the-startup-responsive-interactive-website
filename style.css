@@ -1,28 +1,82 @@
-html{
+body{
     margin: 0;
+    padding: 0;
     background-color: #ECEBEC;
+    font-family: sans-serif, Roboto;
 }
 
 .feedbackbutton{
     position: fixed;
-    right: -2em;
+    right: -34px;
     top: 50%;
     rotate: -90deg;
-    background-color: #004c4c;
+    background-color: #e5f6f4;
+    border-color: #00a296;
     width: 100px;
     height: 35px;
-    color: #ffffff;
+    color: #004c4c;
 }
 
 header{
+    background-color: #ffffff;
     ul{
         list-style: none;
     }
-    .top-deel{
-        display: flex;   
+    section.top-deel{
+        ul.taalswitch{
+        margin-left: -30px;
+            li{
+                display: inline-block;
+                color: #cfcfcf;
+                margin-left: 5px;
+                a{
+                    text-decoration: none;
+                    color: #00716b;
+                }
+            }
+        }
+        a.privebutton{
+            color: black;
+            text-decoration: none;
+            margin-right: 10px;
+            align-content: center;
+        }
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
     }
-    .navbar{
+    section.bottom-deel{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        #abnlogo{
+            height: 40px;
+            width: 140px;
+            margin: 10px;
+        }
+        .inloggenbutton{
+            text-decoration: none;
+            color: black;
+            background-color: #F5CD33;
+            padding: 15px 20px 15px 50px;
+            margin: 10px;
+        }
+    }
+    nav.navbar{
         background-color: #006260;
-        display: inline-block;
+        ul.navbarlinks{
+            margin: 0;
+            padding: 0;
+            li{
+                display: inline;
+                a{
+                    text-decoration: none;
+                    color: #ffffff;
+                }
+            }
+        }
     }
+}
+footer{
+        
 }
