@@ -1,4 +1,4 @@
-body{
+html body{
     margin: 0;
     padding: 0;
     background-color: #ECEBEC;
@@ -141,10 +141,38 @@ footer{
             opacity: 70%;
         }
     }
+    section.snelzelfregelentab{
+        display: none; /*Hide de snel zelfregelen tab, en laat deze pas zien bij de mediaquery */
+    }
 }
 
-/* Telephone styling tot aan 808 px (Topdeelfooter)*/
+/* Telephone styling tot aan 808 px*/
 @media only screen and (max-width: 800px) and (min-width: 0px){
+    main{
+        section.mainheading{
+            padding: 24px 12px 0 12px;
+            margin-bottom: 16px;
+            h1{
+                font-size: 24px;
+                width: fit-content;
+                margin: 0 0 8px 0;
+                padding: 0;
+            }
+            .heading2main1{
+                font-size: 18px;
+                margin: 0 0 8px 0;
+                padding: 0;
+            }
+        }
+        section.block1, .block2,.block3{
+            padding: 0 12px;
+        }
+        .contentbox1,.contentbox2,.contentbox3{
+            background-color: #ffffff;
+            padding: 16px;
+            margin-bottom: 30px;
+        }
+    }
     footer{
         section.topdeelfooter{
             h2.hulpnodigheading{
@@ -161,7 +189,7 @@ footer{
     }
 }
 
-/* Ipad styling van aan 801 px tot 1024px(Topdeelfooter)*/
+/* Ipad styling van aan 801 px tot 1024px (Topdeelfooter)*/
 @media only screen and (max-width: 1024px) and (min-width: 801px){
     footer{
         section.topdeelfooter{
@@ -169,16 +197,24 @@ footer{
             grid-template-columns: 1fr 1fr; 
             align-items: center;
             h2.hulpnodigheading{
-                margin: 0 0 40px 0;
+                margin: 0 0 30px 0;
             }
             p:not(.contactbutton p){
                 margin: 0 0 20px 0;
             }
+            a .contactbutton{
+                margin-top: 40px;
+            }
         }
         section.snelzelfregelentab{
+            display: block; /*Laat pas de snelzelfregelntab zien vanaf 801px tot aan 1024px*/
             padding: 20px;
             text-align: center;
             background-color: #0B7774;
+            a{
+                text-decoration: none;
+                color: #ffffff;
+            }
         }
     }
 }
