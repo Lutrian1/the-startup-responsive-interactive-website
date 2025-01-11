@@ -78,19 +78,18 @@ header{
         }
     }
 }
+
+/* Algemene footer code*/
 footer{
     background-color: #17928c;
     color: #ffffff;
     section.topdeelfooter{
-        margin-left: 20px;
+        padding: 20px;
+        margin: 0;
         h2.hulpnodigheading{
-            padding-top: 20px;
             font-size: 14px;
-            margin-bottom: 30px;
         }
         p{
-            margin-top: 10px;
-            margin-bottom: 40px;
             font-size: 14px;
         }
         a{
@@ -103,7 +102,6 @@ footer{
                 width: 90%;
                 height: 40px;
                 font-size: 14px;
-                margin-top: 20px;
             }
             .contactbutton img{
                 width: 80px;
@@ -114,16 +112,15 @@ footer{
             }
         }
     }
+
     section.bottomdeelfooter{
         background-color: #ecebec;
+        padding: 20px;
         ul.linklist{
-            padding-top: 20px;
-            text-align: center;
-            margin-left: -30px;
+            padding: 0;
             li{
                 display: inline-block;
                 color: #cfcfcf;
-                margin-left: 5px;
                 a{
                     text-decoration: none;
                     color: #00928e;
@@ -131,8 +128,6 @@ footer{
             }
         }
         ul.sociallist{
-            display: flex;
-            justify-content: center;
             padding: 0;
             li{
                 display: inline-block;
@@ -142,9 +137,89 @@ footer{
         p{
             color: black;
             font-style: italic;
-            text-align: center;
             font-size: 12.6px;
             opacity: 70%;
         }
     }
 }
+
+/* Telephone styling tot aan 808 px (Topdeelfooter)*/
+@media only screen and (max-width: 800px) and (min-width: 0px){
+    footer{
+        section.topdeelfooter{
+            h2.hulpnodigheading{
+                margin: 0 0 30px 0;
+            }
+            p:not(.contactbutton p){
+                margin: 0 0 40px 0;
+            }
+            .contactbutton{
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
+
+/* Ipad styling van aan 801 px tot 1024px(Topdeelfooter)*/
+@media only screen and (max-width: 1024px) and (min-width: 801px){
+    footer{
+        section.topdeelfooter{
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            align-items: center;
+            h2.hulpnodigheading{
+                margin: 0 0 40px 0;
+            }
+            p:not(.contactbutton p){
+                margin: 0 0 20px 0;
+            }
+        }
+        section.snelzelfregelentab{
+            padding: 20px;
+            text-align: center;
+            background-color: #0B7774;
+        }
+    }
+}
+
+
+/* Telephone styling tot aan 1024 px (Bottomdeel footer)*/
+@media only screen and (max-width: 1024px) and (min-width: 0px){
+    section.bottomdeelfooter{
+        ul.linklist{
+            text-align: center;
+            li{
+                margin-left: 5px;
+            }
+        }
+        ul.sociallist{
+            display: flex;
+            justify-content: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+}
+
+/* Desktop deel vanaf 1024 px (Bottomdeel footer)*/
+@media only screen and (min-width: 1025px){
+    section.bottomdeelfooter{
+        display: grid; 
+        grid-template-columns: 1.8fr 0.7fr 0.5fr; 
+        ul.linkilist{
+            text-align: left;
+        }
+        ul.sociallist{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        p{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+    }
+}   
