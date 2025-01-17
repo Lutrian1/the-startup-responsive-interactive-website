@@ -212,6 +212,18 @@ footer{
                 margin: 0;
                 padding: 0;
             }
+            .ExtraInfoLijst{
+                display: none;
+            }
+            .telefoonpicca{
+                display: none;
+            }
+            .desktopcontactbutton{
+                display: none;
+            }
+            .telefooncontactbutton{
+                display: block;
+            }
         }
     }
 }
@@ -231,6 +243,18 @@ footer{
             }
             a .contactbutton{
                 margin-top: 40px;
+            }
+            .ExtraInfoLijst{
+                display: none;
+            }
+            .telefoonpicca{
+                display: none;
+            }
+            .desktopcontactbutton{
+                display: none;
+            }
+            .telefooncontactbutton{
+                display: block;
             }
         }
         section.snelzelfregelentab{
@@ -267,6 +291,16 @@ footer{
 
 /* Desktop deel vanaf 1024 px (Bottomdeel footer)*/
 @media only screen and (min-width: 1025px){
+    section.topdeelfooter{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 1fr; 
+        .desktopcontactbutton{
+            display: block;
+        }
+        .telefooncontactbutton{
+            display: none;
+        }
+    }
     section.bottomdeelfooter{
         display: grid; 
         grid-template-columns: 1.8fr 0.7fr 0.5fr; 
