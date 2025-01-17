@@ -219,6 +219,9 @@ footer{
                 display: none;
             }
         }
+        section.desktopmeerinfotab{
+            display: none;
+        }
     }
 }
 
@@ -226,9 +229,11 @@ footer{
 @media only screen and (max-width: 1024px) and (min-width: 801px){
     footer{
         section.topdeelfooter{
-            display: grid; 
-            grid-template-columns: 1fr 1fr; 
-            align-items: center;
+            .TextEnButton{
+                display: grid; 
+                grid-template-columns: 1fr 1fr; 
+                align-items: center;
+            }
             h2.hulpnodigheading{
                 margin: 0 0 30px 0;
             }
@@ -254,6 +259,9 @@ footer{
                 text-decoration: none;
                 color: #ffffff;
             }
+        }
+        section.desktopmeerinfotab{
+            display: none;
         }
     }
 }
@@ -289,10 +297,6 @@ footer{
 
 /* Desktop deel vanaf 1024 px (Bottomdeel footer)*/
 @media only screen and (min-width: 1025px){
-    section.topdeelfooter{
-        display: grid;
-        grid-template-columns: 0.5fr 1fr 1fr; 
-    }
     main{
         section.block1, .block2,.block3{
             padding: 0 12px;
@@ -303,21 +307,42 @@ footer{
             margin-bottom: 30px;
         }
     }
-    section.bottomdeelfooter{
-        display: grid; 
-        grid-template-columns: 1.8fr 0.7fr 0.5fr; 
-        ul.linkilist{
-            text-align: left;
+    footer{
+        section.topdeelfooter{
+            display: grid;
+            grid-template-columns: 0.5fr 1fr 1fr; 
+            .telefoonpicca{
+                position: relative;
+                top: 19%;
+            }
         }
-        ul.sociallist{
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
+        section.bottomdeelfooter{
+            display: grid; 
+            grid-template-columns: 1.8fr 0.7fr 0.5fr; 
+            ul.linkilist{
+                text-align: left;
+            }
+            ul.sociallist{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+            p{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
         }
-        p{
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
+        section.desktopmeerinfotab{
+            color: #ffffff;
+            background-color: #0B7774;
+            padding: 40px 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            a{
+                color: #ffffff;
+                text-decoration: none;
+            }
         }
     }
 }   
