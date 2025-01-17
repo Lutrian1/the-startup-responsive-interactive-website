@@ -9,9 +9,7 @@ Het doel van deze review is om feedback te krijgen op het werk dat is gemaakt, e
 ### Intro
 In deze opdracht is het de bedoeling om een pagina toe te voegen voor de nieuwe toegangkelijkheids regeling die in juni 2025 komt. Voornamelijk banken moeten hieraan meedoen.
 ## Beschrijving
-In deze sprint was het van belang om de gemaakte site van vorige sprint (of een nieuwe), volledig toegangkelijk te maken. Dit betekent dat iedereen met welke fysieke beperking dan ook, onze site zou moeten kunnen navigeren. Dit moesten wij volgens de [A11Y Richtlijnen](https://www.a11yproject.com/checklist/#color-contrast) doen. Met een aantal tools konden wij erachter komen wat moest worden gedaan om dit voor elkaar te krijgen. Zelf hebben we ook tests uitgevoerd om zo de flow van onze website te zien. 
-
-<img width="495" alt="inclusive-microsoft-design-toolkit" src="https://github.com/user-attachments/assets/6e8fb515-23db-4a12-8d3c-5417e28bf69d">
+Zoals al verteld, is het van belang om de site van ABN volledig toegangkelijk te maken met de [A11Y richtlijnen](https://www.a11yproject.com/checklist/#color-contrast). Deze richtlijnen volgen wij op de site zelf die uiteindelijk zal vertellen over de 
 
 ### Lighthouse test
 Een Lighthouse test is eigenlijk een snelle toegangkelijkheids test van de A11Y richtlijnen. Ipv dat je al deze richtlijnen 1 voor 1 checked, doet de lighthouse test deze stappen voor je (niet alle, na de test moet ook handmatig worden getest). Tijdens [Mijn eerste test](https://github.com/Lutrian1/all-human-accessible-website/issues/5) behaalde de site een prima score, maar er waren een aantal dingen wat ik kon verbeteren, zoals bijvoorbeeld de volgorde van de HTML. Eenmaal na deze te hebben verwerkt was hij volgens lighthouse 100% toegangkelijk.
