@@ -246,7 +246,6 @@ footer{
     }
 }
 
-
 /* Telephone styling tot aan 1024 px (Bottomdeel footer)*/
 @media only screen and (max-width: 1024px) and (min-width: 0px){
     section.bottomdeelfooter{
