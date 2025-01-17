@@ -260,6 +260,16 @@ footer{
 
 /* Telephone styling tot aan 1024 px (Bottomdeel footer)*/
 @media only screen and (max-width: 1024px) and (min-width: 0px){
+    main{
+        section.block1, .block2,.block3{
+            padding: 0 12px;
+        }
+        .contentbox1,.contentbox2,.contentbox3{
+            background-color: #ffffff;
+            padding: 16px;
+            margin-bottom: 30px;
+        }
+    }
     section.bottomdeelfooter{
         ul.linklist{
             text-align: center;
@@ -282,6 +292,16 @@ footer{
     section.topdeelfooter{
         display: grid;
         grid-template-columns: 0.5fr 1fr 1fr; 
+    }
+    main{
+        section.block1, .block2,.block3{
+            padding: 0 12px;
+        }
+        .contentbox1,.contentbox2,.contentbox3{
+            background-color: #ffffff;
+            padding: 16px;
+            margin-bottom: 30px;
+        }
     }
     section.bottomdeelfooter{
         display: grid; 
