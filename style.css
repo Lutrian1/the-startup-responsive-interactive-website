@@ -218,12 +218,6 @@ footer{
             .telefoonpicca{
                 display: none;
             }
-            .desktopcontactbutton{
-                display: none;
-            }
-            .telefooncontactbutton{
-                display: block;
-            }
         }
     }
 }
@@ -249,12 +243,6 @@ footer{
             }
             .telefoonpicca{
                 display: none;
-            }
-            .desktopcontactbutton{
-                display: none;
-            }
-            .telefooncontactbutton{
-                display: block;
             }
         }
         section.snelzelfregelentab{
@@ -294,12 +282,6 @@ footer{
     section.topdeelfooter{
         display: grid;
         grid-template-columns: 0.5fr 1fr 1fr; 
-        .desktopcontactbutton{
-            display: block;
-        }
-        .telefooncontactbutton{
-            display: none;
-        }
     }
     section.bottomdeelfooter{
         display: grid; 
