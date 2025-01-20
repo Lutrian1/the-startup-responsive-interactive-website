@@ -1,3 +1,4 @@
+/* == ALGEMENE CSS ==*/
 html body{
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@ html body{
     line-height: 1.5;
 }
 
+/* === FEEDBACKBUTTON EN POPOVER ===*/
 .feedbackbutton {
     position: fixed;
     right: -34px;
@@ -24,13 +26,13 @@ html body{
   width: 100%;
   height: 80%;
   margin: 0 auto;
-  padding 0;
+  padding: 0;
   flex-direction: column;
   transition: translate 0.7s ease-out, display 0.7s ease-out allow-discrete, overlay 0.7s ease-out allow-discrete;
   translate: 0 80rem;
 }
 
-/* Animating the popover in */
+/* == ANIMATIE POPOVER ==*/
 
 /*   IS-OPEN STATE   */
 [popover]:popover-open {
@@ -45,6 +47,7 @@ html body{
   }
 }
 
+/* == HEADER CODE ==*/
 header{
     background-color: #ffffff;
     ul{
@@ -106,10 +109,57 @@ header{
     }
 }
 
-/* Algemene footer code*/
+/* == MAIN CODE ==*/
+main{
+    /* == ALGEMENE STYLING VOOR BLOCKS ==*/
+    section.mainheading{
+        padding: 24px 12px 0 12px;
+        margin-bottom: 16px;
+        h1{
+            width: fit-content;
+            margin: 0 0 8px 0;
+            padding: 0;
+        }
+        .heading2main1{
+            margin: 0 0 8px 0;
+            padding: 0;
+        }
+    }
+    section.block1, .block2,.block3{
+        padding: 0 12px;
+    }
+    .contentbox1,.contentbox2,.contentbox3{
+        background-color: #ffffff;
+        padding: 16px;
+        margin-bottom: 30px;
+    }
+    /* == TELEFOON STYLING ==*/
+    @media only screen and (max-width: 800px) and (min-width: 0px){
+        section.mainheading{
+            padding: 24px 12px 0 12px;
+            margin-bottom: 16px;
+            h1{
+                font-size: 24px;
+            }
+            .heading2main1{
+                font-size: 18px;
+            }
+        }
+    }
+    /* == DESKTOP/IPAD LAYOUT CHANGE ==*/
+    @media only screen and (min-width: 800px){
+        section.block1, .block2,.block3{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+
+/* == FOOTER CODE ==*/
 footer{
     background-color: #17928c;
     color: #ffffff;
+    /* == FOOTER IN 2 DELEN (BOVENSTE DEEL) ==*/
     section.topdeelfooter{
         padding: 20px;
         margin: 0;
@@ -139,7 +189,7 @@ footer{
             }
         }
     }
-
+    /* == (ONDERSTE DEEL ALGEMEEN) ==*/
     section.bottomdeelfooter{
         background-color: #ecebec;
         padding: 20px;
@@ -171,36 +221,48 @@ footer{
     section.snelzelfregelentab{
         display: none; /*Hide de snel zelfregelen tab, en laat deze pas zien bij de mediaquery */
     }
-}
 
-/* Telephone styling tot aan 808 px*/
-@media only screen and (max-width: 800px) and (min-width: 0px){
-    main{
-        section.mainheading{
-            padding: 24px 12px 0 12px;
-            margin-bottom: 16px;
-            h1{
-                font-size: 24px;
-                width: fit-content;
-                margin: 0 0 8px 0;
-                padding: 0;
+    /* == IPAD STYLING VAN 1024 PX tot 801 PX (BOVENSTE DEEL) ==*/
+    @media only screen and (max-width: 1024px) and (min-width: 801px){
+            section.topdeelfooter{
+                .TextEnButton{
+                    display: grid; 
+                    grid-template-columns: 1fr 1fr; 
+                    align-items: center;
+                }
+                h2.hulpnodigheading{
+                    margin: 0 0 30px 0;
+                }
+                p:not(.contactbutton p){
+                    margin: 0 0 20px 0;
+                }
+                a .contactbutton{
+                    margin-top: 40px;
+                }
+                .ExtraInfoLijst{
+                    display: none;
+                }
+                .telefoonpicca{
+                    display: none;
+                }
             }
-            .heading2main1{
-                font-size: 18px;
-                margin: 0 0 8px 0;
-                padding: 0;
+            section.snelzelfregelentab{
+                display: block; /*Laat pas de snelzelfregelntab zien vanaf 801px tot aan 1024px*/
+                padding: 20px;
+                text-align: center;
+                background-color: #0B7774;
+                a{
+                    text-decoration: none;
+                    color: #ffffff;
+                }
+            }
+            section.desktopmeerinfotab{
+                display: none;
             }
         }
-        section.block1, .block2,.block3{
-            padding: 0 12px;
-        }
-        .contentbox1,.contentbox2,.contentbox3{
-            background-color: #ffffff;
-            padding: 16px;
-            margin-bottom: 30px;
-        }
-    }
-    footer{
+
+    /* == TELEFOON STYLING (BOVENSTE DEEL) ==*/
+    @media only screen and (max-width: 800px) and (min-width: 0px){
         section.topdeelfooter{
             h2.hulpnodigheading{
                 margin: 0 0 30px 0;
@@ -223,91 +285,26 @@ footer{
             display: none;
         }
     }
-}
-
-/* Ipad styling van aan 801 px tot 1024px (Topdeelfooter)*/
-@media only screen and (max-width: 1024px) and (min-width: 801px){
-    footer{
-        section.topdeelfooter{
-            .TextEnButton{
-                display: grid; 
-                grid-template-columns: 1fr 1fr; 
-                align-items: center;
+    /* == FOOTER LAYOUT VERANDERD NA 1024 PIXELS (ONDERSTE DEEL) ==*/
+    @media only screen and (max-width: 1024px) and (min-width: 0px){
+        section.bottomdeelfooter{
+            ul.linklist{
+                text-align: center;
+                li{
+                    margin-left: 5px;
+                }
             }
-            h2.hulpnodigheading{
-                margin: 0 0 30px 0;
+            ul.sociallist{
+                display: flex;
+                justify-content: center;
             }
-            p:not(.contactbutton p){
-                margin: 0 0 20px 0;
+            p{
+                text-align: center;
             }
-            a .contactbutton{
-                margin-top: 40px;
-            }
-            .ExtraInfoLijst{
-                display: none;
-            }
-            .telefoonpicca{
-                display: none;
-            }
-        }
-        section.snelzelfregelentab{
-            display: block; /*Laat pas de snelzelfregelntab zien vanaf 801px tot aan 1024px*/
-            padding: 20px;
-            text-align: center;
-            background-color: #0B7774;
-            a{
-                text-decoration: none;
-                color: #ffffff;
-            }
-        }
-        section.desktopmeerinfotab{
-            display: none;
         }
     }
-}
-
-/* Telephone styling tot aan 1024 px (Bottomdeel footer)*/
-@media only screen and (max-width: 1024px) and (min-width: 0px){
-    main{
-        section.block1, .block2,.block3{
-            padding: 0 12px;
-        }
-        .contentbox1,.contentbox2,.contentbox3{
-            background-color: #ffffff;
-            padding: 16px;
-            margin-bottom: 30px;
-        }
-    }
-    section.bottomdeelfooter{
-        ul.linklist{
-            text-align: center;
-            li{
-                margin-left: 5px;
-            }
-        }
-        ul.sociallist{
-            display: flex;
-            justify-content: center;
-        }
-        p{
-            text-align: center;
-        }
-    }
-}
-
-/* Desktop deel vanaf 1024 px (Bottomdeel footer)*/
-@media only screen and (min-width: 1025px){
-    main{
-        section.block1, .block2,.block3{
-            padding: 0 12px;
-        }
-        .contentbox1,.contentbox2,.contentbox3{
-            background-color: #ffffff;
-            padding: 16px;
-            margin-bottom: 30px;
-        }
-    }
-    footer{
+    /* ---- Desktop deel vanaf 1024 px (Bottomdeel footer) ---- */
+    @media only screen and (min-width: 1025px){
         section.topdeelfooter{
             display: grid;
             grid-template-columns: 0.5fr 1fr 1fr; 
@@ -345,4 +342,6 @@ footer{
             }
         }
     }
-}   
+}
+
+
