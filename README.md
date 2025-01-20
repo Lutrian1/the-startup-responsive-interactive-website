@@ -13,6 +13,8 @@ Zoals al verteld, is het van belang om de site van ABN volledig toegangkelijk te
 
 ### Ademruimte en inspringen
 In HTML gebruik ik voornamelijk tabs van inline elementen (li in een ul bijvoorbeeld). Ik maak gen gebruik van wit ruimtes in mijn HTML, omdat ik persoonlijk vind dat dit de flow verpest. Daarnaast gebruik ik voornamelijk classes in mijn HTML. Voor styling maar ook voor leesbaarheid van mezelf, zo weet ik welke section waar hoort bijvoorbeeld. 
+Aantal voorbeelden:
+[Sections]()
 ### Lighthouse test
 
 <img width="1228" alt="image" src="https://github.com/user-attachments/assets/eec0ff2b-93f5-4148-862e-75cb6546616d">
