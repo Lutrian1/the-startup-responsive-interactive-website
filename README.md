@@ -40,6 +40,11 @@ Voorbeeld:
 
 [Layout Change](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/471e524eafe1ccf4c3ed27377349412539a21711/style.css#L136-L156)
 
+### Naamgeving
+Zoals al vermeld is een van de belangrijkste dingen dat ik doe in css en HTML voornamelijk classes te gebruiken en deze goed te vernoemen naar het geen waar het bedoeld voor is. Bijvoorbeeld:
+
+[HTML](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/4165c901f4af26c6604af021b2b1f897dc67dafe/index.html#L19-L27)
+[CSS](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/4165c901f4af26c6604af021b2b1f897dc67dafe/style.css#L56-L95)
 ### Lighthouse test
 
 <img width="1228" alt="image" src="https://github.com/user-attachments/assets/eec0ff2b-93f5-4148-862e-75cb6546616d">
