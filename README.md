@@ -14,6 +14,7 @@ Zoals al verteld, is het van belang om de site van ABN volledig toegangkelijk te
 ### Ademruimte en inspringen
 In HTML gebruik ik voornamelijk tabs van inline elementen (li in een ul bijvoorbeeld). Ik maak gen gebruik van wit ruimtes in mijn HTML, omdat ik persoonlijk vind dat dit de flow verpest. Daarnaast gebruik ik voornamelijk classes in mijn HTML. Voor styling maar ook voor leesbaarheid van mezelf, zo weet ik welke section waar hoort bijvoorbeeld. 
 Aantal voorbeelden:
+
 [Sections](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/86d4b41f33bf3db543fcfef2ed10d18cdbf4247b/index.html#L19-L30)
 
 2 sections met een aparte duidelijke naam.
@@ -29,44 +30,27 @@ Aantal voorbeelden.
 [Footer](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/bbb28788424758dac7fcbb0905875704fc130f6f/style.css#L158-L162)
 [Comments](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/bbb28788424758dac7fcbb0905875704fc130f6f/style.css#L50C1-L50C23)
 
+### Nesten van media queries
+
+Sinds commit [be8602](https://github.com/Lutrian1/the-startup-responsive-interactive-website/commit/be86602bd1f25d95282735716a5635451be1a402) maak ik gebruik van geneste media queries. Elk deze media queries veranderd voornamelijk de volgorde of font size, maar niet algemene dingen die bovenaan te vinden zijn.
+
+Voorbeeld:
+
+[Algemeen](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/471e524eafe1ccf4c3ed27377349412539a21711/style.css#L113-L135)
+
+[Layout Change](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/471e524eafe1ccf4c3ed27377349412539a21711/style.css#L136-L156)
+
 ### Lighthouse test
 
 <img width="1228" alt="image" src="https://github.com/user-attachments/assets/eec0ff2b-93f5-4148-862e-75cb6546616d">
 
 ### Contrast van site
-<img width="1238" alt="image" src="https://github.com/user-attachments/assets/2752af50-6254-44f9-8405-f53b1e89b88c">
-<img width="1244" alt="image" src="https://github.com/user-attachments/assets/d5193484-1d2b-43ea-8ca9-c6394771e7e7">
-<img width="1236" alt="image" src="https://github.com/user-attachments/assets/f53e93e9-d0b7-4dd5-a683-d684cc7d0527">
 
-Ik had ervoor gekozen om de kleuren van de site te veranderen. Toen ik hem op blauw testte, behaalde hij een slecht contrast. Dus zocht ik naar de kleuren die nog enigsinds in het spectrum zaten van het schema die jullie hadden gestuurd via whatsapp. [Hier nog een korte uitleg](https://github.com/Lutrian1/all-human-accessible-website/wiki/Keuze-voor-kleur-wijzeging-(Tumi-Mundo))
-### Contrast Themes Windows
-Tegenwoordig bied HTML en CSS een optie voor contrast themes binnen windows. Contrast themes is de vervanging van het oude 'hoog contrast modus'. Deze modus zet eigenlijk alles op een hoog contrast wat er dus voor zorgt dat bij velle kleuren de site niet meer toegangkelijk is. 
-
-<img width="875" alt="image" src="https://github.com/user-attachments/assets/41ae0f7c-4f8e-460c-811b-e0ccfa02b9b5">
-
-In mijn site had ik dit verwerkt door middel van de line: 
-
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/d188ac0a-c6dc-422d-a1ff-4c4a9013ffb0">
-
-Deze line zorgt ervoor dat de tekst wit blijft, maar de achtergrond zich nog aanpast volgens de contrast themas:
-
-<img width="1245" alt="image" src="https://github.com/user-attachments/assets/58d0dfe1-15ce-4a76-9786-b702327be135">
 
 ## Kenmerken
-* Donkere kleuren zodat het contrast voor iedereen toegangkelijk is.
-* Nieuwe media queries dat helpen hierbij
-* Aria labels dat helpen met screenreader
-* Logische volgorde in HTML
+
 
 ## Bronnen
-
-Figma: https://github.com/fdnd-agency/tumi-mundo
-
-Link naar site: [Site](https://lutrian1.github.io/all-human-accessible-website/)
-
-Gesprek Sprint-Review: 
-
-https://github.com/user-attachments/assets/11ecf845-9c9d-471c-a349-c7e87283cf61
 
 
 
