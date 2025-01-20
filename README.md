@@ -1,4 +1,4 @@
-# The Client - Website (Tumi Mundo)
+# ABN AMRO WEBSITE
 
 ## Inhoudsopgave: 
 
@@ -11,8 +11,9 @@ In deze opdracht is het de bedoeling om een pagina toe te voegen voor de nieuwe 
 ## Beschrijving
 Zoals al verteld, is het van belang om de site van ABN volledig toegangkelijk te maken met de [A11Y richtlijnen](https://www.a11yproject.com/checklist/#color-contrast). Deze richtlijnen volgen wij op de site zelf die uiteindelijk zal vertellen over de 
 
+### Ademruimte en inspringen
+In HTML gebruik ik voornamelijk tabs van inline elementen (li in een ul bijvoorbeeld). Ik maak gen gebruik van wit ruimtes in mijn HTML, omdat ik persoonlijk vind dat dit de flow verpest. Daarnaast gebruik ik voornamelijk classes in mijn HTML. Voor styling maar ook voor leesbaarheid van mezelf, zo weet ik welke section waar hoort bijvoorbeeld. 
 ### Lighthouse test
-Een Lighthouse test is eigenlijk een snelle toegangkelijkheids test van de A11Y richtlijnen. Ipv dat je al deze richtlijnen 1 voor 1 checked, doet de lighthouse test deze stappen voor je (niet alle, na de test moet ook handmatig worden getest). Tijdens [Mijn eerste test](https://github.com/Lutrian1/all-human-accessible-website/issues/5) behaalde de site een prima score, maar er waren een aantal dingen wat ik kon verbeteren, zoals bijvoorbeeld de volgorde van de HTML. Eenmaal na deze te hebben verwerkt was hij volgens lighthouse 100% toegangkelijk.
 
 <img width="1228" alt="image" src="https://github.com/user-attachments/assets/eec0ff2b-93f5-4148-862e-75cb6546616d">
 
