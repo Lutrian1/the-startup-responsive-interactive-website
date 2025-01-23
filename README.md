@@ -91,7 +91,7 @@ Zoals al vermeld is een van de belangrijkste dingen dat ik doe in css en HTML vo
 [CSS](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/4165c901f4af26c6604af021b2b1f897dc67dafe/style.css#L56-L95)
 ### Lighthouse test
 
-<img width="1228" alt="image" src="https://github.com/user-attachments/assets/eec0ff2b-93f5-4148-862e-75cb6546616d">
+![image](https://github.com/user-attachments/assets/8a564e51-221a-45dd-8c53-72a0bc600c70)
 
 ## Kenmerken
 
@@ -118,7 +118,7 @@ dan header met daarin weer de tags die daarop volgens. Ook gebruik ik veel comme
 
 ### Java script
 
-In [mijn java code](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/f86c5fb42e8cb965730421132d4e907eb86899c3/script.js#L1-L11) gebruik ik eigenlijk een heel simpel script dat de classlist toont tijdens het klikken op een van de knoppen in de navbar.
+In [mijn java code](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/f86c5fb42e8cb965730421132d4e907eb86899c3/script.js#L1-L11) gebruik ik eigenlijk een heel simpel script dat de classlist toont tijdens het klikken op een van de knoppen in de navbar. In [mijn html](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/d6c686a8106d798e6d572ae2b702e3fc5e104872/index.html#L51) gebruik ik een hidden attribuut die in [css](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/d6c686a8106d798e6d572ae2b702e3fc5e104872/style.css#L205-L207) word gestijld als none, deze word van false en true gewisseld in java. 
 
 
 
