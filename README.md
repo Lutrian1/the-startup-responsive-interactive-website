@@ -22,16 +22,38 @@ Ik heb gewerkt met een one-column layout. Dit betekent dat alles in 1 column ond
 Voorbeeld van Mobile first:
 
 ALGEMEEN:
+
 ![image](https://github.com/user-attachments/assets/5a891ed0-e3a2-4d85-b111-b3bed388b6a1)
 
 MEDIA:
-![image](https://github.com/user-attachments/assets/9edc99b9-360a-4f92-989c-c1a9e7473525)
+![image](https://github
+.com/user-attachments/assets/9edc99b9-360a-4f92-989c-c1a9e7473525)
 
 Het belangrijkste daarin is de grid. Deze past dus de layout van de belangrijkste content aan.
 
-Ipad
+Ipad/Desktop:
 
-Desktop
+Ipad heeft 2 verschillende groottes. 1 met een andere footer en de one column layout (Kleine ipads of hele grote phones)
+
+![image](https://github.com/user-attachments/assets/55d1d2ab-1d49-44ae-af4d-13770b5ca390)
+
+of de 2 variant en tevens ook de desktop variant:
+
+![image](https://github.com/user-attachments/assets/2b9d1722-b146-4564-a5fa-4b2d859a2d3f)
+
+EXTRA BELANGRIJK:
+
+in 2024 is er een nieuwe code conventie waarin je in css de tag 'popover' kan gebruiken. Deze zorgt voor toegangkelijkheid (geen geneuzel met java) en heb ik daarom ook gebruikt te zien hier:
+
+Desktop:
+
+![image](https://github.com/user-attachments/assets/c669e089-e112-4958-aa87-02b58731517b)
+
+Phone:
+
+![image](https://github.com/user-attachments/assets/349b98c9-8641-41a6-a54d-fb41682c9d51)
+
+[Code](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/920d61b8702e332c8f364ecb1d7ec5072af93c72/style.css#L38-L92)
 
 ### Ademruimte en inspringen
 In HTML gebruik ik voornamelijk tabs van inline elementen (li in een ul bijvoorbeeld). Ik maak gen gebruik van wit ruimtes in mijn HTML, omdat ik persoonlijk vind dat dit de flow verpest. Daarnaast gebruik ik voornamelijk classes in mijn HTML. Voor styling maar ook voor leesbaarheid van mezelf, zo weet ik welke section waar hoort bijvoorbeeld. 
