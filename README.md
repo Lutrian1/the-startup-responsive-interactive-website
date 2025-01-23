@@ -43,7 +43,7 @@ of de 2 variant en tevens ook de desktop variant:
 
 EXTRA BELANGRIJK:
 
-in 2024 is er een nieuwe code conventie waarin je in css de tag 'popover' kan gebruiken. Deze zorgt voor toegangkelijkheid (geen geneuzel met java) en heb ik daarom ook gebruikt te zien hier:
+in 2024 is er een [nieuwe update](https://nerdy.dev/6-css-snippets-every-front-end-developer-should-know-in-2025) waarin je in css de tag 'popover' kan gebruiken. Deze zorgt voor toegangkelijkheid (geen geneuzel met java) en heb ik daarom ook gebruikt te zien hier:
 
 Desktop:
 
@@ -53,7 +53,7 @@ Phone:
 
 ![image](https://github.com/user-attachments/assets/349b98c9-8641-41a6-a54d-fb41682c9d51)
 
-[Code](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/920d61b8702e332c8f364ecb1d7ec5072af93c72/style.css#L38-L92)
+[Code van popover](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/920d61b8702e332c8f364ecb1d7ec5072af93c72/style.css#L38-L92)
 
 ### Ademruimte en inspringen
 In HTML gebruik ik voornamelijk tabs van inline elementen (li in een ul bijvoorbeeld). Ik maak gen gebruik van wit ruimtes in mijn HTML, omdat ik persoonlijk vind dat dit de flow verpest. Daarnaast gebruik ik voornamelijk classes in mijn HTML. Voor styling maar ook voor leesbaarheid van mezelf, zo weet ik welke section waar hoort bijvoorbeeld. 
