@@ -137,18 +137,26 @@ header{
             margin: 10px;
         }
     }
-    nav.navbar{
+    nav{
         background-color: #006260;
         ul.navbarlinks{
-            margin: 0;
-            padding: 0;
+            margin: auto;
+            max-width: 1210px;
+            height: 48px;
+            width: calc(100vw - 1.25rem - 46px);
+            display: flex;
+            align-items: center;
             li{
                 display: inline;
+                padding: 0px 16px;
                 a{
                     text-decoration: none;
                     color: #ffffff;
                 }
             }
+        }
+        ul.productendropdown{
+            display: none;
         }
     }
 }
@@ -194,7 +202,7 @@ main{
         }
     }
     /* == DESKTOP/IPAD LAYOUT CHANGE ==*/
-    @media only screen and (min-width: 800px){
+    @media only screen and (min-width: 980px){
         h1{
             font-size: 40px;
         }
@@ -403,5 +411,3 @@ footer{
         }
     }
 }
-
-
