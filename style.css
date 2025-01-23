@@ -91,6 +91,13 @@ select{
   }
 }
 
+p.disclaimer{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
 /* == HEADER CODE ==*/
 header{
     background-color: #ffffff;
