@@ -93,6 +93,33 @@ Zoals al vermeld is een van de belangrijkste dingen dat ik doe in css en HTML vo
 
 <img width="1228" alt="image" src="https://github.com/user-attachments/assets/eec0ff2b-93f5-4148-862e-75cb6546616d">
 
+## Kenmerken
+
+### CSS
+
+De structuur van HTML is belangrijk voor mij, zodat ik mijn css daarop kan volgen. Alles staat onder elkaar in CSS, Dus eerste de header dan de body etc met de items die daarin weer het eerste komen.
+
+Bijvoorbeeld:
+
+Volgorde HTML:
+
+![image](https://github.com/user-attachments/assets/0628c740-cd93-4acb-bbcd-9bf9697a5c48)
+
+gevolg in css:
+
+eerst popover
+
+![image](https://github.com/user-attachments/assets/19413f67-df49-4e36-a424-a3e6a91bc04f)
+
+dan header met daarin weer de tags die daarop volgens. Ook gebruik ik veel comments (in zowel HTML als CSS). Om alles voor mij duidelijk te houden, maar ook voor een ander.
+
+![image](https://github.com/user-attachments/assets/516d2e82-a58f-44b4-b841-aff01425feec)
+
+
+### Java script
+
+In [mijn java code](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/f86c5fb42e8cb965730421132d4e907eb86899c3/script.js#L1-L11) gebruik ik eigenlijk een heel simpel script dat de classlist toont tijdens het klikken op een van de knoppen in de navbar.
+
 
 
 
