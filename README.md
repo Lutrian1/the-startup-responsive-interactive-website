@@ -11,6 +11,28 @@ In deze opdracht is het de bedoeling om een pagina toe te voegen voor de nieuwe 
 ## Beschrijving
 Zoals al verteld, is het van belang om de site van ABN volledig toegangkelijk te maken met de [A11Y richtlijnen](https://www.a11yproject.com/checklist/#color-contrast). Deze richtlijnen volgen wij op de site zelf die uiteindelijk zal vertellen over de 
 
+### Uitwerking
+
+Telefoon (Mobile first)
+
+![image](https://github.com/user-attachments/assets/dba1e541-d2ea-4b1f-93a6-d11a1ecec6e8)
+
+Ik heb gewerkt met een one-column layout. Dit betekent dat alles in 1 column onder elkaar bevind, met korte ademruimtes ertussen en de achtergrond wit, voor leesbaarheid. De site is zo gecodeerd dat de telefoon als eerste werd gedaan. Alle sizing is dus daarna eromheen gebouwd. 
+
+Voorbeeld van Mobile first:
+
+ALGEMEEN:
+![image](https://github.com/user-attachments/assets/5a891ed0-e3a2-4d85-b111-b3bed388b6a1)
+
+MEDIA:
+![image](https://github.com/user-attachments/assets/9edc99b9-360a-4f92-989c-c1a9e7473525)
+
+Het belangrijkste daarin is de grid. Deze past dus de layout van de belangrijkste content aan.
+
+Ipad
+
+Desktop
+
 ### Ademruimte en inspringen
 In HTML gebruik ik voornamelijk tabs van inline elementen (li in een ul bijvoorbeeld). Ik maak gen gebruik van wit ruimtes in mijn HTML, omdat ik persoonlijk vind dat dit de flow verpest. Daarnaast gebruik ik voornamelijk classes in mijn HTML. Voor styling maar ook voor leesbaarheid van mezelf, zo weet ik welke section waar hoort bijvoorbeeld. 
 Aantal voorbeelden:
@@ -49,13 +71,7 @@ Zoals al vermeld is een van de belangrijkste dingen dat ik doe in css en HTML vo
 
 <img width="1228" alt="image" src="https://github.com/user-attachments/assets/eec0ff2b-93f5-4148-862e-75cb6546616d">
 
-### Contrast van site
 
-
-## Kenmerken
-
-
-## Bronnen
 
 
 
