@@ -3,7 +3,7 @@
 ## Inhoudsopgave: 
 
 ## Inleiding
-
+Ik heb gewerkt aan een 'Toegangkelijkheids pagina voor ABN-AMRO. Dit is een site dat beschrijft waarom ABN toegangkelijk is, en wat ze daarvoor hebben gedaan. 
 ### Doel
 Het doel van deze review is om feedback te krijgen op het werk dat is gemaakt, en de opdrachthgever op de hoogte te houden van het werk. 
 ### Intro
