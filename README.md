@@ -1,7 +1,5 @@
 # ABN AMRO WEBSITE
 
-## Inhoudsopgave: 
-
 ## Inleiding
 Ik heb gewerkt aan een 'Toegangkelijkheids pagina' voor ABN-AMRO. Dit is een site dat beschrijft waarom ABN toegangkelijk is, en wat ze daarvoor hebben gedaan. 
 ### Doel
