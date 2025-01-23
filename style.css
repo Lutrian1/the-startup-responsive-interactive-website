@@ -164,18 +164,48 @@ header{
             background-color: #00716b;
             transition: 200ms;
         }
-
-        ul.productendropdown{
-            display: none;
-        }
         @media only screen and (max-width: 764px){
             ul li:nth-of-type(1){/* == verwijdert home ==*/
                 display: none;
             }
         }
     }
+    section.productendropdownblock{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        padding: 20px 0px 20px 30px;
+        background: #00675e linear-gradient(135deg,#005e5d 0,#00877d 58%,#00756f 58%,#009185 100%);
+        .kruisknop{
+            cursor: pointer;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            right: 5%;
+        }
+        ul.productendropdown{
+            a{
+                color: #ffffff;
+                text-decoration: none;
+                font-size: 18px;
+            }
+            li{
+                margin-bottom: 10px;
+            }
+        }
+        @media only screen and (min-width: 800px){
+            height: 368px;
+            ul.productendropdown{
+                li{
+                    margin-left: 5%;
+                }
+            }
+        }
+    }
+    section.productendropdownblock[hidden] {
+        display: none; /* Verberg met hidden-status*/
+    }
 }
-
 /* == MAIN CODE ==*/
 main{
     /* == ALGEMENE STYLING VOOR BLOCKS ==*/
@@ -440,13 +470,12 @@ footer{
                 font-size: 14px;
                 color: white;
                 margin-right: 10px;
-                position: relative;
-              }
+            }
               li:hover{
                 margin-left: 16px;
                 transition-duration: 100ms;
                 transition-timing-function: ease-in-out;
-              }
+            }
             a:hover{
                 text-decoration: underline;
             }
