@@ -118,6 +118,12 @@ dan header met daarin weer de tags die daarop volgens. Ook gebruik ik veel comme
 
 In [mijn java code](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/f86c5fb42e8cb965730421132d4e907eb86899c3/script.js#L1-L11) gebruik ik eigenlijk een heel simpel script dat de classlist toont tijdens het klikken op een van de knoppen in de navbar. In [mijn html](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/d6c686a8106d798e6d572ae2b702e3fc5e104872/index.html#L51) gebruik ik een hidden attribuut die in [css](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/d6c686a8106d798e6d572ae2b702e3fc5e104872/style.css#L205-L207) word gestijld als none, deze word van false en true gewisseld in java. 
 
+### Interactie
+
+In issue [Issue #11](https://github.com/Lutrian1/the-startup-responsive-interactive-website/issues/11) vertel ik over de doel van mijn interactie. Om het samen te vatten.Het doel van de interactie is een knop hebben die een pop-up toont. Ik heb in de bovenste koppen hier al wat over verteld, maar dit heb ik gedaan door middel van pop-over. 
+
+uitleg code:
+
 
 
 
