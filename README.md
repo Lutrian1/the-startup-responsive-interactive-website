@@ -120,11 +120,33 @@ In [mijn java code](https://github.com/Lutrian1/the-startup-responsive-interacti
 
 ### Interactie
 
-In issue [Issue #11](https://github.com/Lutrian1/the-startup-responsive-interactive-website/issues/11) vertel ik over de doel van mijn interactie. Om het samen te vatten.Het doel van de interactie is een knop hebben die een pop-up toont. Hey disney principe dat ik probeerde te volgen was Follow through and Overlapping action. Ik heb in de bovenste koppen hier al wat over verteld, maar dit heb ik gedaan door middel van pop-over. Het main principe Hierin word echter niet verteld over mijn 2e interactie. Deze interactie toont een pagina nadat op een link word geklikt. Mijn 2 interacties showcase is hier, en leg ik onder uit in mijn code:
+Ik gebruik 2 interacties:
 
 https://github.com/user-attachments/assets/05fcea5c-2744-4ce2-8793-5182b06ca540
 
-uitleg code:
+Interactie 1
+
+In issue [Issue #11](https://github.com/Lutrian1/the-startup-responsive-interactive-website/issues/11) vertel ik over de doel van mijn interactie. Om het samen te vatten.Het doel van de interactie is een knop hebben die een pop-up toont. Het disney principe dat ik probeerde te volgen was Timing. In mijn pop-over had ik nagedacht over hoe snel en sloom ik hem binnen wil laten komen. 
+
+uitleg code: 
+
+<img width="966" alt="image" src="https://github.com/user-attachments/assets/e3e81487-3e14-45af-9734-f36cec198541" />
+
+Met de transition line word de snelheid van het binnen komen van de pop-over bepaald. Deze start onder het scherm. [Hier te zien](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/195df8d671a67363bd0a8a067ccf169fb1fbe2e0/style.css#L88-L92)
+
+Interactie 2
+
+Na het klikken op producten word een classlist getoond door middel van javascript. 
+
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/f9818274-cf34-415e-bf69-b66e51e13600" />
+
+In css heb ik een class gemaakt met de [Hidden] term. Deze style ik als niks. Zodra word geklikt op de interactie, word deze class true of false en toont dus hem als niks of als section. De code is [hier](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/195df8d671a67363bd0a8a067ccf169fb1fbe2e0/style.css#L212-L214) te vinden
+
+Andere Feedback: 
+
+[Likns tonen dat je er naar toe gaat](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/195df8d671a67363bd0a8a067ccf169fb1fbe2e0/style.css#L481C14-L484). Met een hover word de margin een stuk naar links toegoevd zodat je ziet dat je ergens naartoe gaat.
+
+
 
 
 
