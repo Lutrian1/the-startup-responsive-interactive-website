@@ -124,7 +124,7 @@ Ik gebruik 2 interacties:
 
 https://github.com/user-attachments/assets/05fcea5c-2744-4ce2-8793-5182b06ca540
 
-Interactie 1
+**Interactie 1** 
 
 In issue [Issue #11](https://github.com/Lutrian1/the-startup-responsive-interactive-website/issues/11) vertel ik over de doel van mijn interactie. Om het samen te vatten. Het doel van de interactie is een knop hebben die een pop-up toont. Het disney principe dat ik probeerde te volgen was Timing. In mijn pop-over had ik nagedacht over hoe snel en sloom ik hem binnen wil laten komen. 
 
@@ -134,7 +134,7 @@ uitleg code:
 
 Met de transition line word de snelheid van het binnen komen van de pop-over bepaald. Deze start onder het scherm. [Hier te zien](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/195df8d671a67363bd0a8a067ccf169fb1fbe2e0/style.css#L88-L92)
 
-Interactie 2
+**Interactie 2**
 
 Na het klikken op producten word een classlist getoond door middel van javascript. 
 
@@ -142,7 +142,7 @@ Na het klikken op producten word een classlist getoond door middel van javascrip
 
 In css heb ik een class gemaakt met de [Hidden] term. Deze style ik als niks. Zodra word geklikt op de interactie, word deze class true of false en toont dus hem als niks of als section. De code is [hier](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/195df8d671a67363bd0a8a067ccf169fb1fbe2e0/style.css#L212-L214) te vinden
 
-Andere Feedback: 
+**Andere Feedback:**  
 
 Een extra interactie is links met pijltjes.
 
