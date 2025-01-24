@@ -32,6 +32,11 @@ header{
                     color: #00716b;
                 }
             }
+            .en:before{
+                content: "|";
+                margin-right: 10px;
+                color: #b8a6a6;
+            }
         }
         a.privebutton{
             color: black;
@@ -234,6 +239,7 @@ footer{
             li{
                 display: inline-block;
                 color: #cfcfcf;
+                list-style: style-fourth-item;
                 a{
                     text-decoration: none;
                     color: #00928e;
@@ -241,6 +247,11 @@ footer{
                 a:hover{
                     text-decoration: underline;
                 }
+            }
+            li:not(:first-child)::before{
+                content: "|" ;
+                margin-right: 10px;
+                color: #00a296;
             }
         }
         ul.sociallist{
@@ -491,3 +502,4 @@ select{
     translate:0 100rem;
   }
 }
+
