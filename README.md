@@ -120,7 +120,9 @@ In [mijn java code](https://github.com/Lutrian1/the-startup-responsive-interacti
 
 ### Interactie
 
-In issue [Issue #11](https://github.com/Lutrian1/the-startup-responsive-interactive-website/issues/11) vertel ik over de doel van mijn interactie. Om het samen te vatten.Het doel van de interactie is een knop hebben die een pop-up toont. Ik heb in de bovenste koppen hier al wat over verteld, maar dit heb ik gedaan door middel van pop-over. 
+In issue [Issue #11](https://github.com/Lutrian1/the-startup-responsive-interactive-website/issues/11) vertel ik over de doel van mijn interactie. Om het samen te vatten.Het doel van de interactie is een knop hebben die een pop-up toont. Hey disney principe dat ik probeerde te volgen was Follow through and Overlapping action. Ik heb in de bovenste koppen hier al wat over verteld, maar dit heb ik gedaan door middel van pop-over. Het main principe Hierin word echter niet verteld over mijn 2e interactie. Deze interactie toont een pagina nadat op een link word geklikt. Mijn 2 interacties showcase is hier, en leg ik onder uit in mijn code:
+
+https://github.com/user-attachments/assets/05fcea5c-2744-4ce2-8793-5182b06ca540
 
 uitleg code:
 
