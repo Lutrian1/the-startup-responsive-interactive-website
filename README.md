@@ -126,7 +126,7 @@ https://github.com/user-attachments/assets/05fcea5c-2744-4ce2-8793-5182b06ca540
 
 Interactie 1
 
-In issue [Issue #11](https://github.com/Lutrian1/the-startup-responsive-interactive-website/issues/11) vertel ik over de doel van mijn interactie. Om het samen te vatten.Het doel van de interactie is een knop hebben die een pop-up toont. Het disney principe dat ik probeerde te volgen was Timing. In mijn pop-over had ik nagedacht over hoe snel en sloom ik hem binnen wil laten komen. 
+In issue [Issue #11](https://github.com/Lutrian1/the-startup-responsive-interactive-website/issues/11) vertel ik over de doel van mijn interactie. Om het samen te vatten. Het doel van de interactie is een knop hebben die een pop-up toont. Het disney principe dat ik probeerde te volgen was Timing. In mijn pop-over had ik nagedacht over hoe snel en sloom ik hem binnen wil laten komen. 
 
 uitleg code: 
 
