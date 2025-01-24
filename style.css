@@ -7,21 +7,6 @@ html body{
     line-height: 1.5;
 }
 
-textarea{
-    height: 80px;
-    resize: none;
-    padding-bottom: 10px;
-    border-color: black;
-}
-
-textarea:hover{
-    border-color: #00716b;
-}
-
-select{
-    margin-bottom: 10px;
-}
-
 p.disclaimer{
     background-color: red;
     color: white;
@@ -475,6 +460,22 @@ footer{
         height: 50%;
     }
 }
+
+textarea{
+    height: 80px;
+    resize: none;
+    padding-bottom: 10px;
+    border-color: black;
+}
+
+textarea:hover{
+    border-color: #00716b;
+}
+
+select{
+    margin-bottom: 10px;
+}
+
 
 /* == ANIMATIE POPOVER ==*/
 
