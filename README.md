@@ -144,11 +144,11 @@ In css heb ik een class gemaakt met de [Hidden] term. Deze style ik als niks. Zo
 
 Andere Feedback: 
 
-Een extra interactie is [Likns tonen dat je er naar toe gaat](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/195df8d671a67363bd0a8a067ccf169fb1fbe2e0/style.css#L481C14-L484).
+Een extra interactie is links met pijltjes.
 
 <img width="1234" alt="image" src="https://github.com/user-attachments/assets/eb92a7f1-86d5-4a99-8a6a-9d9932fe84b9" />
 
-Met een hover word de margin een stuk naar links toegoevd zodat je ziet dat je ergens naartoe gaat.
+Met een hover word de [margin](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/195df8d671a67363bd0a8a067ccf169fb1fbe2e0/style.css#L481C14-L484) een stuk naar links toegoevd zodat je ziet dat je ergens naartoe gaat.
 
 
 
