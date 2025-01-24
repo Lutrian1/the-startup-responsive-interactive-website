@@ -118,6 +118,40 @@ dan header met daarin weer de tags die daarop volgens. Ook gebruik ik veel comme
 
 In [mijn java code](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/f86c5fb42e8cb965730421132d4e907eb86899c3/script.js#L1-L11) gebruik ik eigenlijk een heel simpel script dat de classlist toont tijdens het klikken op een van de knoppen in de navbar. In [mijn html](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/d6c686a8106d798e6d572ae2b702e3fc5e104872/index.html#L51) gebruik ik een hidden attribuut die in [css](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/d6c686a8106d798e6d572ae2b702e3fc5e104872/style.css#L205-L207) word gestijld als none, deze word van false en true gewisseld in java. 
 
+### Interactie
+
+Ik gebruik 2 interacties:
+
+https://github.com/user-attachments/assets/05fcea5c-2744-4ce2-8793-5182b06ca540
+
+**Interactie 1** 
+
+In issue [Issue #11](https://github.com/Lutrian1/the-startup-responsive-interactive-website/issues/11) vertel ik over de doel van mijn interactie. Om het samen te vatten. Het doel van de interactie is een knop hebben die een pop-up toont. Het disney principe dat ik probeerde te volgen was Timing. In mijn pop-over had ik nagedacht over hoe snel en sloom ik hem binnen wil laten komen. 
+
+uitleg code: 
+
+<img width="966" alt="image" src="https://github.com/user-attachments/assets/e3e81487-3e14-45af-9734-f36cec198541" />
+
+Met de transition line word de snelheid van het binnen komen van de pop-over bepaald. Deze start onder het scherm. [Hier te zien](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/195df8d671a67363bd0a8a067ccf169fb1fbe2e0/style.css#L88-L92)
+
+**Interactie 2**
+
+Na het klikken op producten word een classlist getoond door middel van javascript. 
+
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/f9818274-cf34-415e-bf69-b66e51e13600" />
+
+In css heb ik een class gemaakt met de [Hidden] term. Deze style ik als niks. Zodra word geklikt op de interactie, word deze class true of false en toont dus hem als niks of als section. De code is [hier](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/195df8d671a67363bd0a8a067ccf169fb1fbe2e0/style.css#L212-L214) te vinden
+
+**Andere Feedback:**  
+
+Een extra interactie is links met pijltjes.
+
+<img width="1234" alt="image" src="https://github.com/user-attachments/assets/eb92a7f1-86d5-4a99-8a6a-9d9932fe84b9" />
+
+Met een hover word de [margin](https://github.com/Lutrian1/the-startup-responsive-interactive-website/blob/195df8d671a67363bd0a8a067ccf169fb1fbe2e0/style.css#L481C14-L484) een stuk naar links toegoevd zodat je ziet dat je ergens naartoe gaat.
+
+
+
 
 
 
