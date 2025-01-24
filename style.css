@@ -239,7 +239,6 @@ footer{
             li{
                 display: inline-block;
                 color: #cfcfcf;
-                list-style: style-fourth-item;
                 a{
                     text-decoration: none;
                     color: #00928e;
@@ -249,7 +248,7 @@ footer{
                 }
             }
             li:not(:first-child)::before{
-                content: "|" ;
+                content: "|" ; /*Voeg later counter to (check over counter: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_counter_styles/Using_CSS_counters) */
                 margin-right: 10px;
                 color: #00a296;
             }
